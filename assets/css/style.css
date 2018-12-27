@@ -8,8 +8,30 @@
         padding-left: 6rem;
     }
     
-    .bg-cpg-custom {
+    .bg-cpg {
+        margin-top: -40px;
         background-color: #191b47;
+        color: #fff;
+        text-align: center;
+    }
+
+    .featured-properties {
+        width: 100%;
+        background-color: lightgray;
+        margin-top: -40px;
+    }
+
+    .featured-card {
+        width: 13rem;
+        margin:10px;
+    }
+    
+    .small-space {
+        height: 20px;
+    }
+
+    .banner-space {
+        height: 150px;
     }
     
     .img-fluid {
@@ -19,6 +41,7 @@
     .meet-the-team {
         color: #191b47;
     }
+
     
     #authors img {
         margin-top: -50px;
