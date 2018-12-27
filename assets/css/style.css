@@ -1,0 +1,58 @@
+    .navbar-brand {
+        background: url(../media/CPG_LOW_RES.png) no-repeat center;
+        background-size: contain;
+    }
+    
+    .px-custom {
+        padding-right: 9rem;
+        padding-left: 6rem;
+    }
+    
+    .bg-cpg {
+        margin-top: -40px;
+        background-color: #191b47;
+        color: #fff;
+        text-align: center;
+    }
+
+    .featured-properties {
+        width: 100%;
+        background-color: lightgray;
+        margin-top: -40px;
+    }
+
+    .featured-card {
+        width: 13rem;
+        margin:10px;
+    }
+    
+    .small-space {
+        height: 20px;
+    }
+
+    .banner-space {
+        height: 150px;
+    }
+    
+    .img-fluid {
+        margin: 0 auto;
+    }
+    
+    .meet-the-team {
+        color: #191b47;
+    }
+
+    
+    #authors img {
+        margin-top: -50px;
+    }
+    
+    #authors .card:hover {
+        background: #3292a6;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    #authors .fab {
+        color: #fff;
+    }
