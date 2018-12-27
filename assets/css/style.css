@@ -1,59 +1,77 @@
     .navbar-brand {
         background: url(../media/CPG_LOW_RES.png) no-repeat center;
         background-size: contain;
-        height: 80px;
+        height: 70px;
     }
-    
+
     .px-custom {
         padding-right: 9rem;
         padding-left: 6rem;
     }
-    
+
     .bg-cpg {
-        margin-top: -40px;
         background-color: #191b47;
         color: #fff;
-        text-align: center;
     }
 
     .featured-properties {
         width: 100%;
-        background-color: lightgray;
+        /* background-color: lightgray; */
+        background-color: rgb(240, 240, 240);
         margin-top: -40px;
+    }
+
+    .bg-gray {
+        background-color: rgb(240, 240, 240);
     }
 
     .featured-card {
         width: 13rem;
-        margin:10px;
+        margin: 10px;
     }
-    
+
     .small-space {
         height: 20px;
+    }
+
+    .medium-space {
+        height: 30px;
+    }
+
+    .large-space {
+        height: 100px;
     }
 
     .banner-space {
         height: 150px;
     }
-    
+
     .img-fluid {
         margin: 0 auto;
     }
-    
+
     .meet-the-team {
         color: #191b47;
     }
 
-    
+    .font-cpg {
+        color: white;
+    }
+
+    .font-medium {
+        font-size: 30px;
+    }
+
     #authors img {
         margin-top: -50px;
     }
-    
+
     #authors .card:hover {
         background: #3292a6;
         color: #fff;
         cursor: pointer;
     }
-    
+
     #authors .fab {
         color: #fff;
     }
@@ -61,9 +79,9 @@
     .featured-properties a:link {
         color: #191b47;
     }
-    
+
     .featured-properties a:visited {
-        color:#191b47;
+        color: #191b47;
     }
 
     .featured-properties a:hover {
@@ -80,10 +98,10 @@
         color: #fff;
         width: 100%;
         height: 115px;
-        padding:20px;
+        padding: 20px;
     }
 
-    .cpg-footer a:link{
+    .cpg-footer a:link {
         color: darkgray;
     }
 
@@ -101,25 +119,25 @@
     }
 
     .logo-section-holder {
-        width:100%;
+        width: 100%;
         height: auto;
-        background-color: lightgray;
+        background-color: darkgray;
         padding-left: 135px;
     }
-    
+
     .logo-padding {
         padding-left: 200px;
         width: 100%;
         height: auto;
     }
-    
+
     .logo-logo {
         background: url(../media/CPG_LOW_RES.png) no-repeat center;
         background-size: contain;
         height: 200px;
         /* TODO: need to work on mobile for this image here because its too big on iphonex */
     }
-    
+
     .logo-section {
         width: 400px;
         margin: auto;
@@ -130,7 +148,7 @@
         width: 100%;
         height: auto;
         margin: auto;
-        background-color: lightgray;
+        background-color: darkgray;
         color: darkslategray;
         font-size: 18px;
         padding-bottom: 15px;
@@ -217,4 +235,48 @@
         width: 30px;
         height: 30px;
         margin: 10px;
+    }
+
+    .nav-link-custom {
+        /* font-size: 1rem; */
+        font-size: 18px;
+    }
+
+    .banner {
+        width: 100%;
+        height: 540px;
+        
+        background-color: #191b47;
+        background-image: url("../media/home-interior.jpg");
+
+            /* PARALLAX */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: -200px;
+
+
+        margin-top: -40px;
+        text-align: center;
+    }
+
+    .contact-holder {
+        width: 100%;
+        height: auto;
+        
+        background-color: #191b47;
+        background-image: url("../media/home-interior.jpg");
+
+            /* PARALLAX */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: -200px;
+
+
+        margin-top: -40px;
+        color: black;
+        text-align: center;
     }
