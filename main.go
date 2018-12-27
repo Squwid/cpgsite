@@ -29,5 +29,9 @@ func main() {
 	http.Handle("/assets/", http.StripPrefix("/assets", http.FileServer(http.Dir("./assets"))))
 
 	http.HandleFunc("/", index)
-	http.ListenAndServe(":8080", nil)
+	http.HandleFunc("/gallery", comingsoon)
+	http.HandleFunc("/socialmedia", comingsoon)
+	http.HandleFunc("/aboutus", aboutUs)
+	http.HandleFunc("/contact", comingsoon)
+	http.ListenAndServe(":80", nil)
 }
