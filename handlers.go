@@ -5,7 +5,7 @@ import (
 )
 
 func index(w http.ResponseWriter, req *http.Request) {
-	tpls.ExecuteTemplate(w, "index.html", struct{}{})
+	tpls.ExecuteTemplate(w, "index.html", nil)
 }
 
 func comingsoon(w http.ResponseWriter, req *http.Request) {

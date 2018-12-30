@@ -1,0 +1,32 @@
+.green-bg {
+    background-color: rgb(97, 161, 92);
+}
+
+.cpg-bg {
+    background-color: #191b47;
+    color: white;
+}
+
+.lb-bg {
+    background-color: #15AABF;
+}
+
+.cpg-btn {
+    background-color: #191b47;
+    color: white;
+}
+
+.cpg-btn:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+.lb-btn {
+    background-color: #15AABF;
+    color: white;
+}
+
+.lb-btn:hover {
+    background-color: lightblue;
+    color: black;
+}
