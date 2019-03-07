@@ -38,7 +38,10 @@ func NewFeaturedProperty(fileName, address, link string) *FeaturedProperty {
 }
 
 func featured(w http.ResponseWriter, req *http.Request) {
-	// TODO: check for login first
+	if !loggedIn(req) {
+		http.Redirect(w, req, "/login", http.StatusSeeOther)
+		return
+	}
 	if req.Method == http.MethodPost {
 		//TODO: add a new featured property here
 	}

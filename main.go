@@ -41,6 +41,7 @@ func main() {
 	http.HandleFunc("/socialmedia", comingsoon)
 	http.HandleFunc("/aboutus", aboutUs)
 	http.HandleFunc("/contact", comingsoon)
+	http.HandleFunc("/login", login)
 
 	// Admin Functions
 	http.HandleFunc("/admin/featured", featured)

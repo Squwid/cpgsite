@@ -1,284 +1,301 @@
-    .navbar-brand {
-        background: url(../media/CPG_LOW_RES.png) no-repeat center;
-        background-size: contain;
-        height: 70px;
-    }
+.navbar-brand {
+    background: url(../media/CPG_LOW_RES.png) no-repeat center;
+    background-size: contain;
+    height: 70px;
+}
 
-    .px-custom {
-        padding-right: 9rem;
-        padding-left: 6rem;
-    }
+.px-custom {
+    padding-right: 9rem;
+    padding-left: 6rem;
+}
 
-    .bg-cpg {
-        background-color: #191b47;
-        color: #fff;
-    }
+.bg-cpg {
+    background-color: #191b47;
+    color: #fff;
+}
 
-    .featured-properties {
-        width: 100%;
-        /* background-color: lightgray; */
-        background-color: rgb(240, 240, 240);
-        margin-top: -40px;
-    }
+.featured-properties {
+    width: 100%;
+    /* background-color: lightgray; */
+    background-color: rgb(240, 240, 240);
+    margin-top: -40px;
+}
 
-    .bg-gray {
-        background-color: rgb(240, 240, 240);
-    }
+.bg-gray {
+    background-color: rgb(240, 240, 240);
+}
 
-    .featured-card {
-        width: 13rem;
-        margin: 10px;
-    }
+.featured-card {
+    width: 13rem;
+    margin: 10px;
+}
 
-    .small-space {
-        height: 20px;
-    }
+.small-space {
+    height: 20px;
+}
 
-    .medium-space {
-        height: 30px;
-    }
+.medium-space {
+    height: 30px;
+}
 
-    .large-space {
-        height: 100px;
-    }
+.large-space {
+    height: 100px;
+}
 
-    .banner-space {
-        height: 150px;
-    }
+.banner-space {
+    height: 150px;
+}
 
-    .img-fluid {
-        margin: 0 auto;
-    }
+.img-fluid {
+    margin: 0 auto;
+}
 
-    .meet-the-team {
-        color: #191b47;
-    }
+.meet-the-team {
+    color: #191b47;
+}
 
-    .font-cpg {
-        color: white;
-    }
+.font-cpg {
+    color: white;
+}
 
-    .font-medium {
-        font-size: 30px;
-    }
+.font-medium {
+    font-size: 30px;
+}
 
-    #authors img {
-        margin-top: -50px;
-    }
+#authors img {
+    margin-top: -50px;
+}
+/* 
+#authors .card:hover {
 
-    #authors .card:hover {
-        background: #3292a6;
-        color: #fff;
-        cursor: pointer;
-    }
+}
+*/
 
-    #authors .fab {
-        color: #fff;
-    }
+#authors .card {
+    background: #f0f0f0;
+}
 
-    .featured-properties a:link {
-        color: #191b47;
-    }
+#authors .fab {
+    color: #fff;
+}
 
-    .featured-properties a:visited {
-        color: #191b47;
-    }
+.featured-properties a:link {
+    color: #191b47;
+}
 
-    .featured-properties a:hover {
-        color: rgba(63, 63, 63, 0.493);
-        text-decoration: none;
-    }
+.featured-properties a:visited {
+    color: #191b47;
+}
 
-    .featured-properties a:active {
-        color: darkgray;
-    }
+.featured-properties a:hover {
+    color: rgba(63, 63, 63, 0.493);
+    text-decoration: none;
+}
 
-    .cpg-footer {
-        background-color: #191b47;
-        color: #fff;
-        width: 100%;
-        height: 115px;
-        padding: 20px;
-    }
+.featured-properties a:active {
+    color: darkgray;
+}
 
-    .cpg-footer a:link {
-        color: darkgray;
-    }
+.cpg-footer {
+    background-color: #191b47;
+    color: #fff;
+    width: 100%;
+    height: 115px;
+    padding: 20px;
+}
 
-    .cpg-footer a:visited {
-        color: darkgray;
-    }
+.cpg-footer a:link {
+    color: darkgray;
+}
 
-    .cpg-footer a:hover {
-        color: lightgray;
-        text-decoration: none;
-    }
+.cpg-footer a:visited {
+    color: darkgray;
+}
 
-    .cpg-footer a:active {
-        color: darkgray;
-    }
+.cpg-footer a:hover {
+    color: lightgray;
+    text-decoration: none;
+}
 
-    .logo-section-holder {
-        width: 100%;
-        height: auto;
-        background-color: darkgray;
-        padding-left: 135px;
-    }
+.cpg-footer a:active {
+    color: darkgray;
+}
 
-    .logo-padding {
-        padding-left: 200px;
-        width: 100%;
-        height: auto;
-    }
+.logo-section-holder {
+    width: 100%;
+    height: auto;
+    background-color: darkgray;
+    padding-left: 135px;
+}
 
-    .logo-logo {
-        background: url(../media/CPG_LOW_RES.png) no-repeat center;
-        background-size: contain;
-        height: 150px;
-        /* TODO: need to work on mobile for this image here because its too big on iphonex */
-    }
+.logo-padding {
+    padding-left: 200px;
+    width: 100%;
+    height: auto;
+}
 
-    .logo-section {
-        /* width: 25rem; */
-        /* width: 50%; */
-        vertical-align: center;
-        /* width: 400px; */
-        margin: auto;
-        background-color: inherit;
-    }
+.logo-logo {
+    background: url(../media/CPG_LOW_RES.png) no-repeat center;
+    background-size: contain;
+    height: 150px;
+    /* TODO: need to work on mobile for this image here because its too big on iphonex */
+}
 
-    .logo-section-text {
-        width: 100%;
-        height: auto;
-        margin: auto;
-        background-color: darkgray;
-        color: darkslategray;
-        font-size: 18px;
-        padding-bottom: 15px;
-        padding-top: -5px;
-    }
+.logo-section {
+    /* width: 25rem; */
+    /* width: 50%; */
+    vertical-align: center;
+    /* width: 400px; */
+    margin: auto;
+    background-color: inherit;
+}
 
-    .logo-section-text a:link {
-        color: rgb(28, 145, 184);
-    }
+.logo-section-text {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: darkgray;
+    color: darkslategray;
+    font-size: 18px;
+    padding-bottom: 15px;
+    padding-top: -5px;
+}
 
-    .logo-section-text a:visited {
-        color: rgb(28, 145, 184);
-    }
+.logo-section-text a:link {
+    color: rgb(28, 145, 184);
+}
 
-    .logo-section-text a:hover {
-        color: #191b47;
-        text-decoration: none;
-    }
+.logo-section-text a:visited {
+    color: rgb(28, 145, 184);
+}
 
-    .logo-section-text a:active {
-        color: rgb(28, 145, 184);
-    }
+.logo-section-text a:hover {
+    color: #191b47;
+    text-decoration: none;
+}
 
-    /* SOCIAL MEDIA LOGOS */
-    .linkedin-logo {
-        background: url(../media/linkedin-logo.png) no-repeat center;
-        background-size: contain;
-        height: 30px;
-        width: 30px;
-        margin: 10px;
-    }
+.logo-section-text a:active {
+    color: rgb(28, 145, 184);
+}
 
-    .youtube-logo {
-        background: url(../media/youtube-logo.png) no-repeat center;
-        background-size: contain;
-        height: 30px;
-        width: 30px;
-        margin: 10px;
-    }
+/* SOCIAL MEDIA LOGOS */
+.linkedin-logo {
+    background: url(../media/linkedin-logo.png) no-repeat center;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
 
-    .twitter-logo {
-        background: url(../media/twitter-logo.png) no-repeat center;
-        background-size: contain;
-        height: 30px;
-        width: 30px;
-        margin: 10px;
-    }
+.youtube-logo {
+    background: url(../media/youtube-logo.png) no-repeat center;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
 
-    .facebook-logo {
-        background: url(../media/facebook-logo.png) no-repeat center;
-        background-size: contain;
-        width: 30px;
-        height: 30px;
-        margin: 10px;
-    }
+.twitter-logo {
+    background: url(../media/twitter-logo.png) no-repeat center;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
 
-    .linkedin-logo:hover {
-        background: url(../media/linkedin-logo-hover.png) no-repeat center;
-        background-size: contain;
-        height: 30px;
-        width: 30px;
-        margin: 10px;
-    }
+.facebook-logo {
+    background: url(../media/facebook-logo.png) no-repeat center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
 
-    .youtube-logo:hover {
-        background: url(../media/youtube-logo-hover.png) no-repeat center;
-        background-size: contain;
-        height: 30px;
-        width: 30px;
-        margin: 10px;
-    }
+.linkedin-logo:hover {
+    background: url(../media/linkedin-logo-hover.png) no-repeat center;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
 
-    .twitter-logo:hover {
-        background: url(../media/twitter-logo-hover.png) no-repeat center;
-        background-size: contain;
-        height: 30px;
-        width: 30px;
-        margin: 10px;
-    }
+.youtube-logo:hover {
+    background: url(../media/youtube-logo-hover.png) no-repeat center;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
 
-    .facebook-logo:hover {
-        background: url(../media/facebook-logo-hover.png) no-repeat center;
-        background-size: contain;
-        width: 30px;
-        height: 30px;
-        margin: 10px;
-    }
+.twitter-logo:hover {
+    background: url(../media/twitter-logo-hover.png) no-repeat center;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
 
-    .nav-link-custom {
-        /* font-size: 1rem; */
-        font-size: 18px;
-    }
+.facebook-logo:hover {
+    background: url(../media/facebook-logo-hover.png) no-repeat center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
 
-    .banner {
-        width: 100%;
-        height: 540px;
-        background-color: #191b47;
-        background-image: url("../media/home-interior.jpg");
+.nav-link-custom {
+    /* font-size: 1rem; */
+    font-size: 18px;
+}
 
-            /* PARALLAX */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position-y: -200px;
+.banner {
+    width: 100%;
+    height: 540px;
+    background-color: #191b47;
+    background-image: url("../media/home-interior.jpg");
 
-
-        margin-top: -50px;
-        text-align: center;
-    }
-
-    .contact-holder {
-        width: 100%;
-        height: auto;
-        
-        background-color: #191b47;
-        background-image: url("../media/home-interior.jpg");
-
-            /* PARALLAX */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position-y: -200px;
+    /* PARALLAX */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -200px;
 
 
-        margin-top: -40px;
-        color: black;
-        text-align: center;
-    }
+    margin-top: -50px;
+    text-align: center;
+}
+
+.contact-holder {
+    width: 100%;
+    height: auto;
+
+    background-color: #191b47;
+    background-image: url("../media/home-interior.jpg");
+
+    /* PARALLAX */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -200px;
+
+
+    margin-top: -40px;
+    color: black;
+    text-align: center;
+}
+
+#social-media{
+    width: auto;
+}
+
+.aboutspace{
+    height: 50px;
+}
+
+.left-align{
+    text-align:center;
+    padding-left: 40px;
+    padding-right: 40px;
+}

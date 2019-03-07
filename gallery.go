@@ -94,6 +94,10 @@ func gallery(w http.ResponseWriter, req *http.Request) {
 }
 
 func adminGallery(w http.ResponseWriter, req *http.Request) {
+	if !loggedIn(req) {
+		http.Redirect(w, req, "/login", http.StatusSeeOther)
+		return
+	}
 	tpls.ExecuteTemplate(w, "admingallery.html", struct {
 		PropertiesAmount int
 		Images           map[int]Card
@@ -106,6 +110,10 @@ func adminGallery(w http.ResponseWriter, req *http.Request) {
 }
 
 func addImage(w http.ResponseWriter, req *http.Request) {
+	if !loggedIn(req) {
+		http.Redirect(w, req, "/login", http.StatusSeeOther)
+		return
+	}
 	if req.Method == http.MethodPost {
 		cardType := req.FormValue("imagetype")
 		imageTitle := req.FormValue("imagetitle")
@@ -187,6 +195,10 @@ func addImage(w http.ResponseWriter, req *http.Request) {
 }
 
 func deleteImage(w http.ResponseWriter, req *http.Request) {
+	if !loggedIn(req) {
+		http.Redirect(w, req, "/login", http.StatusSeeOther)
+		return
+	}
 	s := strings.Split(req.URL.Path, "/")
 	// fmt.Println(req.URL.Path)
 	path := s[4]
